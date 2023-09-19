@@ -1,0 +1,220 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    position: relative;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #212121;
+    z-index: 1000;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 13px 70px;
+    list-style: none;
+}
+
+.menu__item {
+    padding-right: 28px;
+    border-right: 2px dotted black;
+}
+
+.menu__item:last-child {
+    border-right: none;
+}
+
+.menu__link {
+    font-size: 0.9375rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.subheader {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.subheader .subheader__logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.subheader .subheader__official {
+    margin-top: 6px;
+    font-size: 0.8125rem;
+    font-weight: 100;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.subheader__call {
+    display: block;
+    margin-top: 19px;
+    font-size: 0.75rem;
+    font-weight: 300;
+    text-align: right;
+    color: #fff;
+}
+
+.subheader__phone {
+    display: block;
+    margin-top: 8px;
+    font-size: 1.375rem;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+    color: #fff;
+}
+
+.subheader .subheader__btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Promo */
+
+.promo {
+    padding: 150px 0 135px;
+    background: url('../img/bg/uber-promo-bg.jpg') center center/cover no-repeat;
+    text-align: center;
+    color: #fff;
+}
+
+.promo .promo__header {
+    margin-bottom: 14px;
+    font-size: 3.75rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.promo .promo__subheader {
+    margin-bottom: 22px;
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.promo .promo__descr {
+    margin: 0;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.promo .promo__btn {
+    display: block;
+    margin: 120px auto 0;
+    width: 259px;
+    height: 63px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.work {
+    padding: 20px 0 28px;
+}
+
+.work .section__label {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 12px;
+    width: 113px;
+    height: 24px;
+    font-size: 0.6875rem;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: black;
+}
+
+.work .title {
+    margin: 32px 0;
+    font-size: 2.375rem;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: #222;
+    text-transform: uppercase;
+}
+
+.work .work__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.work .work__item .work__icon {
+    display: flex;
+    min-width: 116px;
+    min-height: 116px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: #1eacc7;
+}
+
+.work__block {
+    margin-left: 26px;
+}
+
+.work__block .work__title {
+    margin-bottom: 10px;
+    font-size: 1.0625rem;
+    font-weight: 400;
+    color: #1EACC7;
+}
+
+.work__block .work__descr {
+    margin: 0;
+    font-size: 0.9375rem;
+    font-weight: 300;
+    line-height: 21px;
+    color: #202020;
+}
